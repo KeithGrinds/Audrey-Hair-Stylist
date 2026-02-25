@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Audrey | Image Architect</title>
+
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="logo">AUDREY</div>
+  <nav>
+    <a href="#experience">Experience</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#results">Results</a>
+    <a href="#contact">Book</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-grid">
+    <div class="hero-text reveal">
+      <h1>Hair as Identity.</h1>
+      <p>Luxury transformations for women who invest in appearance and presence.</p>
+      <a href="#contact" class="cta">Secure Your Session</a>
+    </div>
+    <div class="hero-image reveal">
+      <img src="https://picsum.photos/700/900?20" alt="">
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="experience">
+  <h2 class="reveal">The Transformation Experience</h2>
+  <div class="cards">
+    <div class="card">Signature Install</div>
+    <div class="card">Luxury Silk Press</div>
+    <div class="card">Bridal Glam Styling</div>
+    <div class="card">Image Consultation</div>
+  </div>
+</section>
+
+<section id="portfolio" class="portfolio">
+  <h2 class="reveal">Visual Portfolio</h2>
+
+  <div class="filters">
+    <button data-filter="all" class="active">All</button>
+    <button data-filter="soft">Soft Glam</button>
+    <button data-filter="bold">Bold Install</button>
+    <button data-filter="bridal">Bridal</button>
+  </div>
+
+  <div class="grid">
+    <div class="item soft"><img src="https://picsum.photos/500/700?1"></div>
+    <div class="item bold"><img src="https://picsum.photos/500/650?2"></div>
+    <div class="item bridal"><img src="https://picsum.photos/500/680?3"></div>
+    <div class="item soft"><img src="https://picsum.photos/500/720?4"></div>
+    <div class="item bold"><img src="https://picsum.photos/500/730?5"></div>
+    <div class="item bridal"><img src="https://picsum.photos/500/710?6"></div>
+  </div>
+</section>
+
+<section id="results" class="results">
+  <h2 class="reveal">Transformation Results</h2>
+
+  <div class="slider">
+    <img src="https://picsum.photos/800/700?7" class="after">
+    <img src="https://picsum.photos/800/700?8" class="before">
+    <input type="range" min="0" max="100" value="50" class="range">
+  </div>
+</section>
+
+<section class="testimonials">
+  <h2>Trusted by Women Who Show Up Different</h2>
+  <blockquote>
+    “Audrey elevated my entire presence. Not just my hair.”
+  </blockquote>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Ready to Elevate Your Look?</h2>
+  <a href="#" class="cta large">Secure Your Session</a>
+</section>
+
+<div class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-img">
+</div>
+
+<footer>
+  <div class="marquee">
+    Women Who Invest — Win • Women Who Invest — Win • Women Who Invest — Win •
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
